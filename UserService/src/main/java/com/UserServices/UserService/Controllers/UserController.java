@@ -30,6 +30,9 @@ public class UserController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(u1);
 	}
 	
+	//goodji
+	
+	
 	@GetMapping("/{userId}")
 	public ResponseEntity<User> getUserById(@PathVariable("userId") String uid)
 	{	
